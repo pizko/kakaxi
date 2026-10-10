@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+  <rect x="0" y="90" width="110" height="20" fill="#5a3214"/>
+  <rect x="0" y="84" width="110" height="8" fill="#1f7a1a"/>
+  <ellipse cx="88" cy="86" rx="16" ry="6" fill="#7a4a22"/>
+  <rect x="40" y="66" width="8" height="20" fill="#1a1a70" stroke="#000" stroke-width="1"/>
+  <rect x="52" y="66" width="8" height="20" fill="#1a1a70" stroke="#000" stroke-width="1"/>
+  <rect x="38" y="84" width="12" height="6" fill="#111"/>
+  <rect x="52" y="84" width="12" height="6" fill="#111"/>
+  <rect x="38" y="46" width="26" height="22" fill="#ff5500" stroke="#000" stroke-width="1"/>
+  <circle cx="51" cy="38" r="10" fill="#ffcc99" stroke="#000" stroke-width="1"/>
+  <circle cx="56" cy="37" r="1.4" fill="#000"/>
+  <rect x="47" y="41" width="6" height="1.4" fill="#000"/>
+  <rect x="40" y="30" width="22" height="5" fill="#ffe100" stroke="#000" stroke-width="1"/>
+  <rect x="44" y="19" width="14" height="12" fill="#ffe100" stroke="#000" stroke-width="1"/>
+  <rect x="62" y="50" width="14" height="6" fill="#ffcc99" stroke="#000" stroke-width="1"/>
+  <polygon points="74,50 98,16 102,20 78,54" fill="#6b3a1a" stroke="#000" stroke-width="1"/>
+  <polygon points="94,8 108,16 100,28 86,18" fill="#d0d0d0" stroke="#000" stroke-width="1"/>
+</svg>
