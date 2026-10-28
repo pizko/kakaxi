@@ -30,7 +30,7 @@
   });
 
   on("btn-enter", function () {
-    showDialog("Вход не выполнен.\nЛогин: incel\nПароль: неизвестен.\nСервер не отвечает с 1998 года.");
+    showDialog("Вход не выполнен.\nЛогин: vyacheslav\nПароль: modern1991\nСервер не отвечает с 1991 года.");
   });
 
   on("btn-back", function () {
@@ -39,11 +39,11 @@
   });
 
   on("btn-email", function () {
-    showDialog("Письмо для incel@geocities.com не ушло.\nМодем издаёт гудки и занят.");
+    showDialog("Письмо для vyacheslav@geocities.com не ушло.\nМодем издаёт гудки и занят.");
   });
 
   on("envelope-btn", function () {
-    showDialog("Письмо для incel@geocities.com не ушло.\nМодем издаёт гудки и занят.");
+    showDialog("Письмо для vyacheslav@geocities.com не ушло.\nМодем издаёт гудки и занят.");
   });
 
   on("btn-fav", function () {
@@ -51,24 +51,24 @@
   });
 
   on("btn-start", function () {
-    showDialog("Браузер больше не разрешает сделать эту страницу стартовой.\nПредставьте, что в 1998 году получилось.");
+    showDialog("Браузер больше не разрешает сделать эту страницу стартовой.\nПредставьте, что в 1991 году получилось.");
   });
 
   on("btn-guest", function () {
-    showDialog("Сообщение не отправлено.\nГостевая книга закрыта на ключ с 1998 года.");
+    showDialog("Сообщение не отправлено.\nГостевая книга закрыта на ключ с 1991 года.\nПишите Вячеславу лично.");
   });
 
   var clickButtons = document.querySelectorAll(".js-click");
   var c;
   for (c = 0; c < clickButtons.length; c++) {
     clickButtons[c].addEventListener("click", function () {
-      showDialog("Вы нажали кнопку.\nНичего не скачалось. Модем выдохнул.");
+      showDialog("Вы нажали кнопку.\nЭто и есть современный UX.\nНичего не скачалось. Модем выдохнул.");
     });
   }
 
   on("link-women", function (e) {
     e.preventDefault();
-    showDialog("Ошибка 404.\nРаздел находится в разработке с 1996 года.");
+    showDialog("Ошибка 404.\nАдаптив находится в разработке с 1991 года.");
   });
 
   document.addEventListener("keydown", function (e) {
@@ -78,9 +78,9 @@
   });
 
   var titles = [
-    "ЛИЧНЫЙ БЛОГ ИНЦЕЛ",
-    "!!! ВНИМАНИЕ !!!",
-    "НИ ОДНА ЖЕНЩИНА НЕ ДАВАЛА МНЕ"
+    "ВЯЧЕСЛАВ ★ СОВРЕМЕННЫЕ САЙТЫ",
+    "!!! UX 1991 !!!",
+    "ДИЗАЙН БУДУЩЕГО ОБРАЗЦА 1991"
   ];
   var titleIndex = 0;
   window.setInterval(function () {
